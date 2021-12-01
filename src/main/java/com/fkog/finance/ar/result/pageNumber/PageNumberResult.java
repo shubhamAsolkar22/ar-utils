@@ -1,10 +1,10 @@
-package com.techcross.finance.ar.result.pageNumber;
+package com.fkog.finance.ar.result.pageNumber;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import com.techcross.finance.ar.result.Result;
+import com.fkog.finance.ar.result.Result;
 
 public class PageNumberResult implements Result<List<Integer>> {
 	private final List<Integer> extractedPageNumbers;

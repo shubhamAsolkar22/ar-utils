@@ -1,4 +1,4 @@
-package com.techcross.finance.ar.extractor.pageNumber;
+package com.fkog.finance.ar.extractor.pageNumber;
 
 import java.io.File;
 import java.io.IOException;
@@ -12,9 +12,9 @@ import org.apache.log4j.Logger;
 import org.apache.pdfbox.pdmodel.PDDocument;
 import org.apache.pdfbox.text.PDFTextStripper;
 
-import com.techcross.finance.ar.extractor.AbstractExtractor;
-import com.techcross.finance.ar.result.Result;
-import com.techcross.finance.ar.result.pageNumber.PageNumberResult;
+import com.fkog.finance.ar.extractor.AbstractExtractor;
+import com.fkog.finance.ar.result.Result;
+import com.fkog.finance.ar.result.pageNumber.PageNumberResult;
 
 public class PageNumberExtractor extends AbstractExtractor<List<Integer>> {
 
